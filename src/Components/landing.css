@@ -1,0 +1,237 @@
+body{
+    background-color: #ffffff;
+}
+
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.left-nav{
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    font-size: 14px;
+    border-radius: 36px;
+    border: 1px solid #ccc;
+    background-color: black;
+    color: white;
+    margin-left: 90px;
+}
+.right-nav{
+    display: flex;
+    align-items: center;
+    margin-right: 90px;
+}
+.left-nav div{
+    margin-left: 10px;
+}
+.left-nav div:last-child{
+    margin-right: 19px;
+}
+.last-div{
+    padding-left: 10px;
+}
+.profile-image{
+    width: 84px;
+    height: 11px;
+    padding: 5px 10px;
+    border-radius: 36px;
+    margin-right: 10px;
+    border: 1px solid #0075FF;
+    background-color: #0075FF;
+}
+.right-nav span, .right-nav .navButton{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.right-nav .icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.navButton{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    background-color:#0075FF ;
+    color: white;
+    gap: 12px;
+    border-radius: 36px;
+    font-size: 14px;
+    height: 15px;
+    padding: 10px;
+    border: none;
+}
+.navButton3{
+    margin-left: 35px;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    background-color:#000000 ;
+    color: white;
+    border-radius: 36px;
+    font-size: 14px;
+    height: 15px;
+    padding: 10px;
+    border: none;
+}
+.navButton2{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    gap: 12px;
+    border-radius: 36px;
+    font-size: 14px;
+    height: 15px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.navButton2 .icon3{
+    width: 25px;
+    height: 25px;
+}
+.navButton span{
+    margin-left: 5px;
+}
+.navButton .icon3{
+    width: 25px;
+    height: 25px;
+}
+.right-content {
+    display: flex;
+    /* margin-left: 44px; */
+    width: 100%;
+    /* padding-top: 90px; */
+  }
+  
+  .right-side {
+    width: 50%; 
+    background:linear-gradient(to top, #D4E8FF 80%,transparent 20%);
+    border-radius: 36px;
+    margin-right: 100px;
+    padding: 20px;
+  }
+  
+  .image-on-right {
+    width: 100%; 
+    height: 500px;
+  }
+  
+  .left-side {
+    width: 50%; 
+    padding-top: 115px;
+    font-weight: 600;
+    text-align: left;
+  }
+  .mainText{
+    font-size: 55px;
+    font-weight: 700;
+    margin-left: 110px;
+  }
+  .mainText1{
+    font-size: 55px;
+    color: #0075FF;
+    font-weight: 700;
+    margin-left: 110px;
+  }
+
+  
+ 
+  
+  .mainText1, .mainText {
+    margin-right: 5px;
+  }
+  
+  .image-in-text {
+    width: 39px;
+    height: 32px;
+    margin-left: 12px;
+
+  }
+  .buttonsleft{
+    padding-top: 100px;
+    display: flex;
+    margin-left: 110px;
+  }
+
+ 
+
+.your-parent-container {
+    display: flex;
+    padding-top: 70px;
+    gap:40px
+  }
+  
+  .left-div {
+    width: 35%; 
+    display: flex;
+    align-items: center;
+    height: 130px;
+    margin-left: 110px;
+    /* border: 1px solid black; */
+    border-radius: 40px;
+    color: white;
+    background-color: #000000;
+  }
+  
+  .left-div img {
+    /* width: 100%; */
+  }
+  
+  .left-div div {
+    margin-top: 10px; 
+  }
+  
+  .left-div .second-image {
+  }
+  
+  .right-div {
+    width: 60%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 130px;
+    margin-right: 100px;
+    /* border: 1px solid black; */
+    border-radius: 40px;
+    color: white;
+    background-color: #0075FF;
+  }
+  .textleft{
+    font-size: 18px;
+    text-align: left;
+  }
+  .right-div div {
+    display: flex;
+    align-items: center;
+  }
+  .IconsText  {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+  .right-div img {
+    width: 50px; 
+    /* margin-right: 10px; */
+  }
+  .iconBox{
+    padding: 20px;
+    height: 111px;
+}
+  .IconsText{
+    display: flex;
+  }
+  .SecondCal{
+    font-size: 30px;
+    font-weight: 400;
+  }
+ .imhContainer{
+    padding-top: 100px;
+ }
+ .imgSixze{
+    width: 80%;
+    background-color: #000000;
+ }
