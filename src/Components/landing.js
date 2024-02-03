@@ -19,6 +19,8 @@ import nexun from "../Assets/nexun.png"
 import hammer from "../Assets/hammer.png"
 import textcard from "../Assets/textcard.png"
 import textcard2 from "../Assets/textcard2.png"
+import Ellipse68 from "../Assets/Ellipse68.png"
+import line from "../Assets/line.png"
 const Landing = () => {
     return (
         <div>
@@ -140,18 +142,46 @@ const Landing = () => {
                     </p></div>
             </div>
             <div className="next-div">
-                <div className="left-side">
-                    <img src={imageright} alt="Icon" className="icon-image" />
-                    <div>
-                        <h3>Your Heading</h3>
-                        <p>First paragraph with text.</p>
-                        <p>Second paragraph after some space.</p>
-                        <ul className="key-list">
-                            <li>Your first key point</li>
-                            <li>Your second key point</li>
-                            <li>Your third key point</li>
-                            {/* Add more list items as needed */}
-                        </ul>
+                <div className="leftsZ-side">
+                    <div className="Icon-para">
+                        <div className="image-para">
+                            <img src={iconBox} alt="Icon" className="icon-image" />
+                            <img src={line} alt="Icon" className="icimage" />
+                        </div>
+                        <div className="paragraph"> <span className="heading-para">Sandwich Automation</span><br></br><span className="subHeading">Put all your idle coins to work.</span><br></br><br></br>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        </div>
+                        
+                    </div>
+
+                 
+                    <div className="U-list">
+                    <div className="Icon-para">
+                        <div className="imagepar">
+                            <img src={Ellipse68} alt="Icon"className="iconEllipse68"/>
+                        </div>
+                        <div className="paragraph"> <span className="subHeadingul">Presale Sniping</span><br></br><br></br>
+                        </div>
+                        
+                    </div>
+                    <div className="Icon-para">
+                        <div className="imagepar">
+                            <img src={Ellipse68} alt="Icon" className="iconEllipse68" />
+                        </div>
+                        <div className="paragraph"> <span className="subHeadingul">Copy Trading
+</span><br></br><br></br>
+                       </div>
+                        
+                    </div>
+                    <div className="Icon-para">
+                        <div className="imagepar">
+                            <img src={Ellipse68} alt="Icon" className="iconEllipse68" />
+                        </div>
+                        <div className="paragraph"> <span className="subHeadingul">Limits, DCA, Stop-Loss
+</span><br></br><br></br>
+                        </div>
+                        
+                    </div>
                     </div>
                 </div>
                 <div className="right-sides">
@@ -179,7 +209,7 @@ const Landing = () => {
                 </div>
                 <div className="bottom-line">
                     <p>Our transactions algorithm functions on the following principle: <span className="lastSnap">If you don’t generate yield, the transaction doesn’t go through.</span></p>
-                    
+
                 </div>
             </div>
             <div className="footer">
