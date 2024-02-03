@@ -21,19 +21,24 @@ import textcard from "../Assets/textcard.png"
 import textcard2 from "../Assets/textcard2.png"
 import Ellipse68 from "../Assets/Ellipse68.png"
 import line from "../Assets/line.png"
+import hem from "../Assets/hem.png"
+import Plus from "../Assets/Plus.png"
 const Landing = () => {
     return (
         <div>
             <div className="top-nav">
                 <div className="left-nav">
                     <img className="profile-image" src={group} alt="Profile" />
-                    <div >Launchpad</div>
+                    <div style={{cursor:"pointer"}}>Launchpad</div>
                     <div className="last-div" >Nexus</div>
                 </div>
                 <div className="right-nav">
                     <span ><img className="icon" src={people} /></span>
                     <span ><img className="icon" src={bell} /></span>
-                    <div className="navButton" ><span>Connet Wallet </span><img className="icon3" src={rightArrow} /></div>
+                    <div className="navButton" ><span>Connet Wallet </span><img className="icon3" src={rightArrow} />
+                   
+                    </div>
+                    <img className="iconhem" src={hem} />
                 </div>
             </div>
             <div className="right-content">
@@ -59,6 +64,14 @@ const Landing = () => {
 
 
             </div>
+            <div className="buttonsleftmobile">
+                        <div className="navButton" ><span>Get Started </span><img className="icon3" src={rightArrow} /></div>
+                        <div className="navButton2" ><img className="icon3" src={Plus} /></div>
+                        <div className="navButton3" ><img className="icon3" src={telegram} />
+                            <img className="icon3" src={tweet} />
+                            <img className="icon3" src={discord} />
+                        </div>
+                    </div>
             <div className="your-parent-container">
                 <div className="left-div">
                     <img className="iconBox" src={iconBox} alt="Image" />
@@ -66,28 +79,28 @@ const Landing = () => {
                         <p>Revolutionizing</p>
                         <p>Launchpad</p>
                     </div>
-                    <div style={{ paddingLeft: "110px" }}>
+                    <div className="rightAow" >
                         <img src={rightArrow} alt="Second Image" className="second-image" /></div>
                 </div>
                 <div className="right-div">
                     <div className="vbnm">
                         <img src={reload} alt="Icon" />
                         <div className="IconsText">
-                            <span>AVG ROI</span>
+                            <span className="Font-ch">AVG ROI</span>
                             <span className="SecondCal">15X</span>
                         </div>
                     </div>
                     <div>
                         <img src={icon} alt="Icon" />
                         <div className="IconsText">
-                            <span>Total Participants</span>
+                            <span className="Font-ch">Total Participants</span>
                             <span className="SecondCal">200,000+</span>
                         </div>
                     </div>
                     <div>
                         <img src={wallet} alt="Icon" />
                         <div className="IconsText">
-                            <span>FTotal Assets Connected</span>
+                            <span className="Font-ch">FTotal Assets Connected</span>
                             <span className="SecondCal">1 Billion</span>
                         </div>
                     </div>
@@ -149,44 +162,72 @@ const Landing = () => {
                             <img src={line} alt="Icon" className="icimage" />
                         </div>
                         <div className="paragraph"> <span className="heading-para">Sandwich Automation</span><br></br><span className="subHeading">Put all your idle coins to work.</span><br></br><br></br>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                         </div>
-                        
+
                     </div>
 
-                 
+
                     <div className="U-list">
-                    <div className="Icon-para">
-                        <div className="imagepar">
-                            <img src={Ellipse68} alt="Icon"className="iconEllipse68"/>
+                        <div className="Icon-para">
+                            <div className="imagepar">
+                                <img src={Ellipse68} alt="Icon" className="iconEllipse68" />
+                            </div>
+                            <div className="paragraph"> <span className="subHeadingul">Presale Sniping</span><br></br><br></br>
+                            </div>
+
                         </div>
-                        <div className="paragraph"> <span className="subHeadingul">Presale Sniping</span><br></br><br></br>
+                        <div className="Icon-para">
+                            <div className="imagepar">
+                                <img src={Ellipse68} alt="Icon" className="iconEllipse68" />
+                            </div>
+                            <div className="paragraph"> <span className="subHeadingul">Copy Trading
+                            </span><br></br><br></br>
+                            </div>
+
                         </div>
-                        
-                    </div>
-                    <div className="Icon-para">
-                        <div className="imagepar">
-                            <img src={Ellipse68} alt="Icon" className="iconEllipse68" />
+                        <div className="Icon-para">
+                            <div className="imagepar">
+                                <img src={Ellipse68} alt="Icon" className="iconEllipse68" />
+                            </div>
+                            <div className="paragraph"> <span className="subHeadingul">Limits, DCA, Stop-Loss
+                            </span><br></br><br></br>
+                            </div>
+
                         </div>
-                        <div className="paragraph"> <span className="subHeadingul">Copy Trading
-</span><br></br><br></br>
-                       </div>
-                        
-                    </div>
-                    <div className="Icon-para">
-                        <div className="imagepar">
-                            <img src={Ellipse68} alt="Icon" className="iconEllipse68" />
-                        </div>
-                        <div className="paragraph"> <span className="subHeadingul">Limits, DCA, Stop-Loss
-</span><br></br><br></br>
-                        </div>
-                        
-                    </div>
                     </div>
                 </div>
                 <div className="right-sides">
                     <img className="image-on-rights" src={imageright} alt="Image on Right" />
                 </div>
+                <div className="U-list-Mobile">
+                        <div className="Icon-para">
+                            <div className="imagepar">
+                                <img src={Ellipse68} alt="Icon" className="iconEllipse68" />
+                            </div>
+                            <div className="paragraph"> <span className="subHeadingul">Presale Sniping</span><br></br><br></br>
+                            </div>
+
+                        </div>
+                        <div className="Icon-para">
+                            <div className="imagepar">
+                                <img src={Ellipse68} alt="Icon" className="iconEllipse68" />
+                            </div>
+                            <div className="paragraph"> <span className="subHeadingul">Copy Trading
+                            </span><br></br><br></br>
+                            </div>
+
+                        </div>
+                        <div className="Icon-para">
+                            <div className="imagepar">
+                                <img src={Ellipse68} alt="Icon" className="iconEllipse68" />
+                            </div>
+                            <div className="paragraph"> <span className="subHeadingul">Limits, DCA, Stop-Loss
+                            </span><br></br><br></br>
+                            </div>
+
+                        </div>
+                    </div>
             </div>
             <div className="custom">
                 <div className="custom-div">
@@ -202,8 +243,8 @@ const Landing = () => {
                         </p>
                     </div>
                     <div className="right-siders">
-                        <img src={textcard} alt="Image" className="bottom-image" />
-                        <img src={textcard2} alt="Image" className="top-left-overlay" />
+                        <img src={textcard2} alt="Image" className="bottom-image" />
+                        <img src={textcard} alt="Image" className="top-left-overlay" />
                     </div>
 
                 </div>
