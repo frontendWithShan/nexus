@@ -340,6 +340,7 @@ font-weight: 600;
 .icon-image {
   width: 50px; 
   margin-right: 10px; 
+  height: 60px;
 }
 
 .right-side {
@@ -431,4 +432,46 @@ hr {
   border-radius: 25px;
   padding: 10px;
   background-color: #191F25;
+}
+.Icon-para{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.paragraph{
+  width: 339px;
+    font-size: 14px;
+}
+.image-para{
+  padding-top: 6px;
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+}
+.icimage{
+  padding-top: 10px;
+}
+.heading-para{
+  font-size: 27px;
+  color: #0075FF;
+}
+.subHeading{
+  font-weight: 700;
+}
+.leftsZ-side{
+  width: 50%; 
+    padding-top: 35px;
+    font-weight: 600;
+    text-align: left;
+}
+.U-list{
+  padding-top: 40px;
+}
+.subHeadingul{
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.imagepar{
+  padding-right: 7px;
 }
