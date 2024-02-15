@@ -1,30 +1,39 @@
-import React from "react";
-import './landing.css'
-import group from "../Assets/group.png"
-import people from "../Assets/people.png"
-import bell from "../Assets/bell.png"
-import rightArrow from "../Assets/rightArrow.png"
-import imageright from "../Assets/imageright.png"
-import Star1 from "../Assets/Star1.png"
-import tweet from "../Assets/tweet.png"
-import telegram from "../Assets/telegram.png"
-import discord from "../Assets/discord.png"
-import iconBox from "../Assets/iconBox.png"
-import reload from "../Assets/reload.png"
-import icon from "../Assets/icon.png"
-import wallet from "../Assets/wallet.png"
-import main from "../Assets/main.png"
-import star2 from "../Assets/star2.png"
-import nexun from "../Assets/nexun.png"
-import hammer from "../Assets/hammer.png"
-import textcard from "../Assets/textcard.png"
-import textcard2 from "../Assets/textcard2.png"
-import Ellipse68 from "../Assets/Ellipse68.png"
-import line from "../Assets/line.png"
-import hem from "../Assets/hem.png"
-import Plus from "../Assets/Plus.png"
+import {useEffect,useState,useRef} from "react";
+import './landing.css';
+import group from "../Assets/group.png";
+import people from "../Assets/people.png";
+import bell from "../Assets/bell.png";
+import rightArrow from "../Assets/rightArrow.png";
+import imageright from "../Assets/imageright.png";
+import Star1 from "../Assets/Star1.png";
+import tweet from "../Assets/tweet.png";
+import telegram from "../Assets/telegram.png";
+import discord from "../Assets/discord.png";
+import iconBox from "../Assets/iconBox.png";
+import reload from "../Assets/reload.png";
+import icon from "../Assets/icon.png";
+import wallet from "../Assets/wallet.png";
+import main from "../Assets/main.png";
+import star2 from "../Assets/star2.png";
+import nexun from "../Assets/nexun.png";
+import hammer from "../Assets/hammer.png";
+import textcard from "../Assets/textcard.png";
+import textcard2 from "../Assets/textcard2.png";
+import Ellipse68 from "../Assets/Ellipse68.png";
+import line from "../Assets/line.png";
+import hem from "../Assets/hem.png";
+import Plus from "../Assets/Plus.png";
 const Landing = () => {
+    const [isLoaded, setIsLoaded] = useState(false);
+
+    useEffect(() => {
+        // Simulating loading delay with setTimeout
+        setTimeout(() => {
+            setIsLoaded(true);
+        }, 1000); // Adjust the delay as needed
+    }, []);
     return (
+        <div className={`landing-container ${isLoaded ? 'loaded' : ''}`}>
         <div>
             <div className="top-nav">
                 <div className="left-nav">
@@ -260,6 +269,7 @@ const Landing = () => {
                     <img className="icon3" src={discord} />
                 </div></div>
 
+        </div>
         </div>
 
     );
